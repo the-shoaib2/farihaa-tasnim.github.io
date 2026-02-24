@@ -2,8 +2,8 @@
     "site": {
         "title": "Portfolio | Fariha Tasnim",
         "logo": {
-            "text": "Dev",
-            "span": "Portfolio."
+            "text": "Faa",
+            "span": "Tasnim."
         },
         "favicon": "public/images/favicon.ico",
         "nav": [
@@ -118,12 +118,14 @@
             "degree": "B.Sc in Computer Science",
             "institution": "University of Engineering & Technology",
             "duration": "2018 - 2022",
+            "icon": "fa-solid fa-graduation-cap",
             "description": "Specialized in Software Engineering and Artificial Intelligence. Graduated with honors."
         },
         {
             "degree": "Higher Secondary Certificate",
             "institution": "City College",
             "duration": "2016 - 2018",
+            "icon": "fa-solid fa-school",
             "description": "Science Group. Focused on Mathematics and Physics."
         }
     ],
