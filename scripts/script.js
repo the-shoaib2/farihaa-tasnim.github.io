@@ -34,6 +34,7 @@ function initIndexPage() {
             populateSite(data.site, data.profile);
             populateHero(data.profile);
             populateAbout(data.about);
+            populateEducation(data.education);
             populateExperience(data.experience);
             populateSkills(data.skills);
             populateServices(data.services);
@@ -539,6 +540,27 @@ function populateContact(contact) {
             </div>
         `;
         infoContainer.appendChild(div);
+    });
+}
+
+function populateEducation(education) {
+    const container = document.getElementById('education-timeline');
+    if (!container || !education) return;
+
+    education.forEach((item, index) => {
+        const div = document.createElement('div');
+        div.className = 'timeline-item reveal';
+        div.style.transitionDelay = `${index * 150}ms`;
+        div.innerHTML = `
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+                <span class="timeline-date">${item.duration}</span>
+                <h3>${item.degree}</h3>
+                <h4>${item.institution}</h4>
+                <p>${item.description}</p>
+            </div>
+        `;
+        container.appendChild(div);
     });
 }
 

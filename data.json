@@ -16,6 +16,10 @@
                 "link": "#about"
             },
             {
+                "label": "Education",
+                "link": "#education"
+            },
+            {
                 "label": "Skills",
                 "link": "#skills"
             },
@@ -32,6 +36,10 @@
             "about": {
                 "subtitle": "Who I Am",
                 "title": "About Me"
+            },
+            "education": {
+                "subtitle": "Learning Journey",
+                "title": "Education"
             },
             "skills": {
                 "subtitle": "My Stack",
@@ -105,6 +113,20 @@
             }
         ]
     },
+    "education": [
+        {
+            "degree": "B.Sc in Computer Science",
+            "institution": "University of Engineering & Technology",
+            "duration": "2018 - 2022",
+            "description": "Specialized in Software Engineering and Artificial Intelligence. Graduated with honors."
+        },
+        {
+            "degree": "Higher Secondary Certificate",
+            "institution": "City College",
+            "duration": "2016 - 2018",
+            "description": "Science Group. Focused on Mathematics and Physics."
+        }
+    ],
     "experience": [
         {
             "role": "Senior Full Stack Dev",
