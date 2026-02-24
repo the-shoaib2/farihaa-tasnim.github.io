@@ -1,0 +1,379 @@
+{
+    "site": {
+        "title": "Portfolio | Fariha Tasnim",
+        "logo": {
+            "text": "Dev",
+            "span": "Portfolio."
+        },
+        "favicon": "public/images/favicon.ico",
+        "nav": [
+            {
+                "label": "Home",
+                "link": "#hero"
+            },
+            {
+                "label": "About",
+                "link": "#about"
+            },
+            {
+                "label": "Skills",
+                "link": "#skills"
+            },
+            {
+                "label": "Portfolio",
+                "link": "#portfolio"
+            },
+            {
+                "label": "Contact",
+                "link": "#contact"
+            }
+        ],
+        "sections": {
+            "about": {
+                "subtitle": "Who I Am",
+                "title": "About Me"
+            },
+            "skills": {
+                "subtitle": "My Stack",
+                "title": "Technical Skills"
+            },
+            "portfolio": {
+                "subtitle": "My Works",
+                "title": "Featured Projects"
+            },
+            "contact": {
+                "subtitle": "Get in Touch",
+                "title": "Contact Me"
+            }
+        },
+        "footer": "&copy; 2026 Fariha Tasnim. All rights reserved.",
+        "policies": {
+            "terms": {
+                "title": "Terms of Service | Fariha Tasnim",
+                "heading": "Terms of Service",
+                "lastUpdated": "February 15, 2026"
+            },
+            "privacy": {
+                "title": "Privacy Policy | Fariha Tasnim",
+                "heading": "Privacy Policy",
+                "lastUpdated": "February 15, 2026"
+            }
+        }
+    },
+    "profile": {
+        "name": "Fariha Tasnim",
+        "subtitle": "Full Stack Developer",
+        "profileImage": "public/images/profile.jpg",
+        "description": "I build accessible, pixel-perfect, and performant web experiences. Turning ideas into real-life products is my calling.",
+        "social": [
+            {
+                "icon": "fa-brands fa-github",
+                "url": "https://github.com/farihaa-tasnim"
+            },
+            {
+                "icon": "fa-brands fa-linkedin-in",
+                "url": "https://linkedin.com/in/farihaa-tasnim"
+            },
+            {
+                "icon": "fa-brands fa-telegram",
+                "url": "https://telegram.me/the_shoaib2"
+            },
+            {
+                "icon": "fa-brands fa-instagram",
+                "url": "https://instagram.com/the.shoaib3"
+            }
+        ]
+    },
+    "about": {
+        "text": [
+            "I'm a versatile developer specializing in the intersection of design and cutting-edge technology. My journey began with web customization years ago, and today I build high-performance, AI-powered solutions across multiple platforms.",
+            "I specialize in developing intelligent web ecosystems, machine learning integrations, and native Android and iOS applications. I focus on creating AI-integrated experiences that are not only visually stunning but also redefine user interaction through smart, efficient technology."
+        ],
+        "stats": [
+            {
+                "value": "05+",
+                "label": "Years Experience"
+            },
+            {
+                "value": "20+",
+                "label": "Projects Completed"
+            },
+            {
+                "value": "20+",
+                "label": "Happy Clients"
+            }
+        ]
+    },
+    "experience": [
+        {
+            "role": "Senior Full Stack Dev",
+            "company": "Tech Solutions Inc.",
+            "duration": "2023 - Present",
+            "description": "Leading a team of developers to build scalable AI-driven web applications. Architecting cloud solutions using AWS and Docker."
+        },
+        {
+            "role": "Full Stack Developer",
+            "company": "Creative Agency",
+            "duration": "2021 - 2023",
+            "description": "Developed and maintained multiple client websites using React and Node.js. Improved site performance by 40%."
+        },
+        {
+            "role": "Junior Web Developer",
+            "company": "StartUp Hub",
+            "duration": "2019 - 2021",
+            "description": "Collaborated with designers to implement responsive UI/UX. Built RESTful APIs for mobile applications."
+        }
+    ],
+    "skills": {
+        "programming_languages": [
+            "C",
+            "C++",
+            "Python",
+            "Java",
+            "C#",
+            "PHP",
+            "JavaScript",
+            "TypeScript",
+            "Dart"
+        ],
+        "frontend": [
+            "HTML5",
+            "CSS3",
+            "React",
+            "Vue.js",
+            "Tailwind CSS",
+            "Bootstrap"
+        ],
+        "backend_and_apis": [
+            "Node.js",
+            "Express.js",
+            "Django",
+            "Flask",
+            "Laravel",
+            "Spring Boot",
+            "GraphQL",
+            "Kafka"
+        ],
+        "mobile_development": [
+            "Android",
+            "Kotlin",
+            "Flutter",
+            "React Native"
+        ],
+        "ai_machine_learning": [
+            "TensorFlow",
+            "PyTorch",
+            "OpenCV",
+            "Scikit-learn",
+            "Pandas",
+            "Seaborn",
+            "NLP"
+        ],
+        "databases": [
+            "MySQL",
+            "PostgreSQL",
+            "MongoDB",
+            "SQLite",
+            "Redis"
+        ],
+        "devops_and_tools": [
+            "AWS",
+            "GCP",
+            "Docker",
+            "Linux",
+            "Git",
+            "Bash"
+        ],
+        "tools_and_ides": [
+            "VS Code",
+            "Firebase",
+            "Postman",
+            "Electron"
+        ],
+        "design_and_media": [
+            "Adobe Photoshop",
+            "Filmora"
+        ]
+    },
+    "projects": [
+        {
+            "name": "Meal Sphere",
+            "description": "Meal planning and recipe sharing platform.",
+            "tech_stack": [
+                "React",
+                "Next.js",
+                "Node.js",
+                "TypeScript",
+                "Prisma",
+                "MongoDB",
+                "Tailwind CSS",
+                "React Hook Form",
+                "NextAuth.js",
+                "Dotenv",
+                "Framer Motion",
+                "Recharts",
+                "Lucide React",
+                "Nodemailer"
+            ],
+            "repository": "https://github.com/farihaa-tasnim/meal-sphere",
+            "image": "https://s0.wp.com/mshots/v1/https%3A%2F%2Fmeal-sphere.vercel.app?w=1200",
+            "live_preview": "https://meal-sphere.vercel.app"
+        },
+        {
+            "name": "AI Agent",
+            "description": "Intelligent agent platform leveraging NLP and automation for productivity.",
+            "tech_stack": [
+                "Python",
+                "TensorFlow",
+                "PyTorch",
+                "NLP",
+                "Docker"
+            ],
+            "repository": "https://github.com/farihaa-tasnim/ai-agent",
+            "image": "https://s0.wp.com/mshots/v1/https%3A%2F%2Fgithub.com%2Ffarihaa-tasnim%2Fai-agent?w=1200",
+            "live_preview": null
+        },
+        {
+            "name": "Pregnify",
+            "description": "AI-powered platform for personalized pregnancy risk prediction, real-time health monitoring, and seamless patient-doctor communication.",
+            "tech_stack": [
+                "Node.js",
+                "Express.js",
+                "Prisma",
+                "MySQL",
+                "JWT",
+                "OpenAI",
+                "React",
+                "Vite",
+                "Tailwind CSS",
+                "ShadCN UI",
+                "Chart.js"
+            ],
+            "repository": "https://github.com/farihaa-tasnim/Pregnify",
+            "image": "https://s0.wp.com/mshots/v1/https%3A%2F%2Fgithub.com%2Ffarihaa-tasnim%2FPregnify?w=1200",
+            "live_preview": null
+        },
+        {
+            "name": "Supershop Management System",
+            "description": "Spring Boot-based inventory & sales management application.",
+            "tech_stack": [
+                "Java",
+                "Spring Boot",
+                "MongoDB",
+                "Kafka",
+                "JWT",
+                "Cloudinary",
+                "OpenAPI",
+                "React",
+                "Vite",
+                "Tailwind CSS",
+                "ShadCN UI",
+                "Radix UI",
+                "Framer Motion",
+                "React Router",
+                "React Query",
+                "Zustand",
+                "Recharts"
+            ],
+            "repository": "https://github.com/farihaa-tasnim/Super-Shop-Management",
+            "image": "https://s0.wp.com/mshots/v1/https%3A%2F%2Fgithub.com%2Ffarihaa-tasnim%2FSuper-Shop-Management?w=1200",
+            "live_preview": null
+        }
+    ],
+    "services": [
+        {
+            "title": "Web Development",
+            "icon": "fa-solid fa-code",
+            "description": "Building responsive, high-performance websites using reliable technologies like React, Next.js, and Node.js."
+        },
+        {
+            "title": "Mobile App Development",
+            "icon": "fa-solid fa-mobile-screen",
+            "description": "Creating native Android and iOS applications with Flutter and React Native for seamless user experiences."
+        },
+        {
+            "title": "AI Solutions",
+            "icon": "fa-solid fa-brain",
+            "description": "Integrating machine learning models and AI agents to automate workflows and enhance business intelligence."
+        }
+    ],
+    "testimonials": [
+        {
+            "name": "Sarah Jenkins",
+            "role": "CEO at TechStart",
+            "feedback": "Shoaib delivered our project on time and exceeded our expectations. His understanding of AI integration is top-notch.",
+            "avatar": "https://randomuser.me/api/portraits/women/44.jpg"
+        },
+        {
+            "name": "Michael Chen",
+            "role": "Product Manager",
+            "feedback": "A true professional. The mobile app he built for us is smooth, responsive, and exactly what our users needed.",
+            "avatar": "https://randomuser.me/api/portraits/men/32.jpg"
+        },
+        {
+            "name": "Emily Davis",
+            "role": "Founder",
+            "feedback": "Highly recommended! Shoaib's full-stack skills helped us launch our platform ahead of schedule.",
+            "avatar": "https://randomuser.me/api/portraits/women/68.jpg"
+        },
+        {
+            "name": "James Wilson",
+            "role": "CTO, InnovateX",
+            "feedback": "Outstanding technical depth. His ability to bridge design and complex backend architecture is rare.",
+            "avatar": "https://randomuser.me/api/portraits/men/46.jpg"
+        },
+        {
+            "name": "Jessica Lee",
+            "role": "Founder, AI Hive",
+            "feedback": "The AI agents Shoaib developed for us transformed our workflow. Fast, reliable, and incredibly smart.",
+            "avatar": "https://randomuser.me/api/portraits/women/24.jpg"
+        },
+        {
+            "name": "David Miller",
+            "role": "Marketing Director",
+            "feedback": "Pixel-perfect implementation every time. Our landing page conversion spiked after the redesign.",
+            "avatar": "https://randomuser.me/api/portraits/men/52.jpg"
+        },
+        {
+            "name": "Sophia Rodriguez",
+            "role": "Startup Consultant",
+            "feedback": "Great communication and even better code. Shoaib is my go-to developer for any complex MVP.",
+            "avatar": "https://randomuser.me/api/portraits/women/33.jpg"
+        },
+        {
+            "name": "Ryan Thompson",
+            "role": "E-commerce Owner",
+            "feedback": "He handles everything from database design to frontend animations with ease. Highly impressed.",
+            "avatar": "https://randomuser.me/api/portraits/men/11.jpg"
+        },
+        {
+            "name": "Linda Wu",
+            "role": "Marketing Lead",
+            "feedback": "The UI Shoaib built is stunning and works perfectly across all devices. Highly recommend!",
+            "avatar": "https://randomuser.me/api/portraits/women/12.jpg"
+        },
+        {
+            "name": "Alex Rivier",
+            "role": "Startup Founder",
+            "feedback": "Shoaib's ability to grasp complex requirements and turn them into code is impressive.",
+            "avatar": "https://randomuser.me/api/portraits/men/25.jpg"
+        },
+        {
+            "name": "Chloe Bennett",
+            "role": "App Designer",
+            "feedback": "Working with Shoaib was a breeze. He's efficient, communicative, and very talented.",
+            "avatar": "https://randomuser.me/api/portraits/women/35.jpg"
+        },
+        {
+            "name": "Mark Stevens",
+            "role": "CTO, CloudScale",
+            "feedback": "A top-tier developer who understands both the small details and the big picture.",
+            "avatar": "https://randomuser.me/api/portraits/men/55.jpg"
+        }
+    ],
+    "contact": {
+        "location": "Dhaka, Bangladesh",
+        "email": "abrohoman019@gmail.com",
+        "phone": "+8801909976166"
+    }
+}
