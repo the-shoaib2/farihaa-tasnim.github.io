@@ -34,6 +34,7 @@ function initIndexPage() {
             populateSite(data.site, data.profile);
             populateHero(data.profile);
             populateAbout(data.about);
+            populateEducation(data.education);
             populateExperience(data.experience);
             populateSkills(data.skills);
             populateServices(data.services);
@@ -387,6 +388,11 @@ function populateAbout(about) {
         });
     }
 
+    const aboutImg = document.getElementById('about-img');
+    if (aboutImg && about.aboutImage) {
+        aboutImg.src = about.aboutImage;
+    }
+
     const statsContainer = document.getElementById('about-stats');
     if (statsContainer) {
         about.stats.forEach(stat => {
@@ -420,14 +426,42 @@ function populateSkills(skills) {
         category.style.transitionDelay = `${index * 100}ms`;
 
         const title = categories[key] || key.replace(/_/g, ' ');
-        let skillTags = skills[key].map(skill => `<span class="skill-tag">${skill}</span>`).join('');
+        const skillItems = skills[key].map(skill => `
+            <div class="skill-item">
+                <div class="skill-info">
+                    <span class="skill-name">
+                        <i class="${skill.icon || 'fa-solid fa-check'}"></i>
+                        ${skill.name}
+                    </span>
+                    <span class="skill-percentage">${skill.percentage}%</span>
+                </div>
+                <div class="skill-bar-bg">
+                    <div class="skill-bar-fill" style="width: 0%" data-width="${skill.percentage}%"></div>
+                </div>
+            </div>
+        `).join('');
 
         category.innerHTML = `
             <h3>${title}</h3>
-            <div class="skill-list">${skillTags}</div>
+            <div class="skill-list">${skillItems}</div>
         `;
         container.appendChild(category);
     });
+
+    // Add animation for skill bars when they reveal
+    const observerOptions = { threshold: 0.2 };
+    const skillObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const fills = entry.target.querySelectorAll('.skill-bar-fill');
+                fills.forEach(fill => {
+                    fill.style.width = fill.getAttribute('data-width');
+                });
+            }
+        });
+    }, observerOptions);
+
+    document.querySelectorAll('.skill-category').forEach(el => skillObserver.observe(el));
 }
 
 function populateProjects(projects) {
@@ -506,6 +540,27 @@ function populateContact(contact) {
             </div>
         `;
         infoContainer.appendChild(div);
+    });
+}
+
+function populateEducation(education) {
+    const container = document.getElementById('education-timeline');
+    if (!container || !education) return;
+
+    education.forEach((item, index) => {
+        const div = document.createElement('div');
+        div.className = 'timeline-item reveal';
+        div.style.transitionDelay = `${index * 150}ms`;
+        div.innerHTML = `
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+                <span class="timeline-date">${item.duration}</span>
+                <h3>${item.degree}</h3>
+                <h4>${item.institution}</h4>
+                <p>${item.description}</p>
+            </div>
+        `;
+        container.appendChild(div);
     });
 }
 
