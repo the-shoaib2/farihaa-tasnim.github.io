@@ -70,9 +70,9 @@
     },
     "profile": {
         "name": "Fariha Tasnim",
-        "subtitle": "Junior Full Stack Developer",
+        "subtitle": "Aspiring Software Developer",
         "profileImage": "public/images/profile.jpg",
-        "description": "A passionate developer continuously learning new technologies and building real-world projects to grow my skills.",
+        "description": "I am a 3rd year Computer Science student passionate about programming, learning new technologies, and building real-world projects to enhance my skills.",
         "social": [
             {
                 "icon": "fa-brands fa-github",
@@ -95,47 +95,49 @@
     "about": {
         "aboutImage": "public/images/about-me.png",
         "text": [
-            "I'm a versatile developer specializing in the intersection of design and cutting-edge technology. My journey began with web customization years ago, and today I build high-performance, AI-powered solutions across multiple platforms.",
-            "I specialize in developing intelligent web ecosystems, machine learning integrations, and native Android and iOS applications. I focus on creating AI-integrated experiences that are not only visually stunning but also redefine user interaction through smart, efficient technology."
+           "I am a developer exploring software development and programming. I continuously improve my skills by working on academic and personal projects.",
+           "I enjoy learning new technologies and applying them to solve problems. My goal is to grow as a software developer through hands-on experience, consistent learning, and building practical, user-friendly applications."
+        ],
+         "stats": [
+            {
+                "value": "05+",
+                "label": "Years Experience"
+            },
+            {
+                "value": "20+",
+                "label": "Projects Completed"
+            },
+            {
+                "value": "20+",
+                "label": "Happy Clients"
+            }
         ]
-
     },
     "education": [
         {
             "degree": "B.Sc in Computer Science",
             "institution": "University of Asia Pacific",
-            "duration": "2024 - Present",
-            "icon": "fa-solid fa-graduation-cap"
-
+            "duration": "2024 - present",
+            "icon": "fa-solid fa-graduation-cap",
+            "description": "Specializing in Software Engineering. Focused on AI and machine learning."
+    
         },
         {
             "degree": "Higher Secondary Certificate",
-            "institution": "City College",
-            "duration": "2016 - 2018",
+            "institution": "Shaheed Police Smrity College",
+            "duration": "2020 - 2022",
             "icon": "fa-solid fa-school",
-            "description": "Science Group. Focused on Mathematics and Physics."
+            "description": "Science Group."
+        },
+     {
+            "degree": "Secondary School Certificate",
+            "institution": "Shaheed Police Smrity College",
+            "duration": "2020",
+            "icon": "fa-solid fa-school",
+            "description": "Science Group."
         }
     ],
-    "experience": [
-        {
-            "role": "Senior Full Stack Dev",
-            "company": "Tech Solutions Inc.",
-            "duration": "2023 - Present",
-            "description": "Leading a team of developers to build scalable AI-driven web applications. Architecting cloud solutions using AWS and Docker."
-        },
-        {
-            "role": "Full Stack Developer",
-            "company": "Creative Agency",
-            "duration": "2021 - 2023",
-            "description": "Developed and maintained multiple client websites using React and Node.js. Improved site performance by 40%."
-        },
-        {
-            "role": "Junior Web Developer",
-            "company": "StartUp Hub",
-            "duration": "2019 - 2021",
-            "description": "Collaborated with designers to implement responsive UI/UX. Built RESTful APIs for mobile applications."
-        }
-    ],
+    
     "skills": {
         "programming_languages": [
             {
@@ -145,269 +147,63 @@
             },
             {
                 "name": "C++",
-                "percentage": 85,
+                "percentage": 80,
                 "icon": "fa-solid fa-plus-square"
             },
             {
                 "name": "Python",
-                "percentage": 95,
+                "percentage": 70,
                 "icon": "fa-brands fa-python"
             },
             {
                 "name": "Java",
-                "percentage": 80,
+                "percentage": 85,
                 "icon": "fa-brands fa-java"
-            },
-            {
-                "name": "C#",
-                "percentage": 75,
-                "icon": "fa-solid fa-hashtag"
-            },
-            {
-                "name": "PHP",
-                "percentage": 85,
-                "icon": "fa-brands fa-php"
-            },
-            {
-                "name": "JavaScript",
-                "percentage": 95,
-                "icon": "fa-brands fa-js"
-            },
-            {
-                "name": "TypeScript",
-                "percentage": 90,
-                "icon": "fa-solid fa-bolt"
-            },
-            {
-                "name": "Dart",
-                "percentage": 85,
-                "icon": "fa-solid fa-bullseye"
             }
+
         ],
         "frontend": [
             {
                 "name": "HTML5",
-                "percentage": 98,
+                "percentage": 80,
                 "icon": "fa-brands fa-html5"
             },
             {
                 "name": "CSS3",
-                "percentage": 95,
-                "icon": "fa-brands fa-css3-alt"
-            },
-            {
-                "name": "React",
-                "percentage": 92,
-                "icon": "fa-brands fa-react"
-            },
-            {
-                "name": "Vue.js",
-                "percentage": 80,
-                "icon": "fa-brands fa-vuejs"
-            },
-            {
-                "name": "Tailwind CSS",
-                "percentage": 95,
-                "icon": "fa-solid fa-wind"
-            },
-            {
-                "name": "Bootstrap",
-                "percentage": 90,
-                "icon": "fa-brands fa-bootstrap"
-            }
-        ],
-        "backend_and_apis": [
-            {
-                "name": "Node.js",
-                "percentage": 90,
-                "icon": "fa-brands fa-node-js"
-            },
-            {
-                "name": "Express.js",
-                "percentage": 92,
-                "icon": "fa-solid fa-server"
-            },
-            {
-                "name": "Django",
-                "percentage": 85,
-                "icon": "fa-solid fa-database"
-            },
-            {
-                "name": "Flask",
-                "percentage": 80,
-                "icon": "fa-solid fa-flask"
-            },
-            {
-                "name": "Laravel",
-                "percentage": 88,
-                "icon": "fa-brands fa-laravel"
-            },
-            {
-                "name": "Spring Boot",
                 "percentage": 75,
-                "icon": "fa-solid fa-leaf"
-            },
-            {
-                "name": "GraphQL",
-                "percentage": 85,
-                "icon": "fa-solid fa-diagram-project"
-            },
-            {
-                "name": "Kafka",
-                "percentage": 70,
-                "icon": "fa-solid fa-stream"
+                "icon": "fa-brands fa-css3-alt"
             }
-        ],
-        "mobile_development": [
-            {
-                "name": "Android",
-                "percentage": 85,
-                "icon": "fa-brands fa-android"
-            },
-            {
-                "name": "Kotlin",
-                "percentage": 80,
-                "icon": "fa-solid fa-robot"
-            },
-            {
-                "name": "Flutter",
-                "percentage": 90,
-                "icon": "fa-solid fa-mobile-screen"
-            },
-            {
-                "name": "React Native",
-                "percentage": 88,
-                "icon": "fa-brands fa-react"
-            }
-        ],
-        "ai_machine_learning": [
-            {
-                "name": "TensorFlow",
-                "percentage": 85,
-                "icon": "fa-solid fa-brain"
-            },
-            {
-                "name": "PyTorch",
-                "percentage": 80,
-                "icon": "fa-solid fa-microchip"
-            },
-            {
-                "name": "OpenCV",
-                "percentage": 85,
-                "icon": "fa-solid fa-eye"
-            },
-            {
-                "name": "Scikit-learn",
-                "percentage": 88,
-                "icon": "fa-solid fa-gears"
-            },
-            {
-                "name": "Pandas",
-                "percentage": 92,
-                "icon": "fa-solid fa-table"
-            },
-            {
-                "name": "Seaborn",
-                "percentage": 90,
-                "icon": "fa-solid fa-chart-line"
-            },
-            {
-                "name": "NLP",
-                "percentage": 82,
-                "icon": "fa-solid fa-language"
-            }
+
         ],
         "databases": [
             {
                 "name": "MySQL",
                 "percentage": 95,
                 "icon": "fa-solid fa-database"
-            },
-            {
-                "name": "PostgreSQL",
-                "percentage": 90,
-                "icon": "fa-solid fa-server"
-            },
-            {
-                "name": "MongoDB",
-                "percentage": 92,
-                "icon": "fa-solid fa-leaf"
-            },
-            {
-                "name": "SQLite",
-                "percentage": 85,
-                "icon": "fa-solid fa-floppy-disk"
-            },
-            {
-                "name": "Redis",
-                "percentage": 80,
-                "icon": "fa-solid fa-clock"
             }
+
         ],
         "devops_and_tools": [
-            {
-                "name": "AWS",
-                "percentage": 80,
-                "icon": "fa-brands fa-aws"
-            },
-            {
-                "name": "GCP",
-                "percentage": 75,
-                "icon": "fa-brands fa-google"
-            },
-            {
-                "name": "Docker",
-                "percentage": 85,
-                "icon": "fa-brands fa-docker"
-            },
-            {
-                "name": "Linux",
-                "percentage": 90,
-                "icon": "fa-brands fa-linux"
-            },
+            
             {
                 "name": "Git",
-                "percentage": 95,
+                "percentage": 82,
                 "icon": "fa-brands fa-git-alt"
-            },
-            {
-                "name": "Bash",
-                "percentage": 85,
-                "icon": "fa-solid fa-terminal"
             }
         ],
         "tools_and_ides": [
             {
                 "name": "VS Code",
-                "percentage": 98,
-                "icon": "fa-solid fa-code"
-            },
-            {
-                "name": "Firebase",
                 "percentage": 90,
-                "icon": "fa-solid fa-fire"
-            },
-            {
-                "name": "Postman",
-                "percentage": 95,
-                "icon": "fa-solid fa-envelope-open-text"
-            },
-            {
-                "name": "Electron",
-                "percentage": 80,
-                "icon": "fa-solid fa-desktop"
+                "icon": "fa-solid fa-code"
             }
+        
         ],
         "design_and_media": [
             {
                 "name": "Adobe Photoshop",
-                "percentage": 85,
+                "percentage": 70,
                 "icon": "fa-solid fa-image"
-            },
-            {
-                "name": "Filmora",
-                "percentage": 90,
-                "icon": "fa-solid fa-video"
             }
         ]
     },
@@ -496,23 +292,7 @@
             "live_preview": null
         }
     ],
-    "services": [
-        {
-            "title": "Web Development",
-            "icon": "fa-solid fa-code",
-            "description": "Building responsive, high-performance websites using reliable technologies like React, Next.js, and Node.js."
-        },
-        {
-            "title": "Mobile App Development",
-            "icon": "fa-solid fa-mobile-screen",
-            "description": "Creating native Android and iOS applications with Flutter and React Native for seamless user experiences."
-        },
-        {
-            "title": "AI Solutions",
-            "icon": "fa-solid fa-brain",
-            "description": "Integrating machine learning models and AI agents to automate workflows and enhance business intelligence."
-        }
-    ],
+    
     "testimonials": [
         {
             "name": "Sarah Jenkins",
@@ -589,7 +369,7 @@
     ],
     "contact": {
         "location": "Dhaka, Bangladesh",
-        "email": "abrohoman019@gmail.com",
-        "phone": "+8801909976166"
+        "email": "farihatasnim218@gmail.com",
+        "phone": "+8801631095171"
     }
 }
