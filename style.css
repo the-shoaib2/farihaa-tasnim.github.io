@@ -395,24 +395,33 @@ img {
 }
 
 .logo span {
-    color: (#92b316);
+    color: #5d92cb ;
 }
 
 .logo span.logo-char-1 {
-    color: var(--google-blue);
+    color: #8449b9;
 }
 
 .logo span.logo-char-2 {
-    color: var(--google-red);
+    color: #5d94cf;
 }
 
 .logo span.logo-char-3 {
-    color: var(--google-yellow);
+    color: #bf6fbf;
+}
+.logo span.logo-char-4 {
+    color:#8dbb22f2;
+}
+.logo span.logo-char-5 {
+    color:#a73030;
+}
+.logo span.logo-char-6 {
+    color:#54b5bbbd;
 }
 
 .logo span.logo-dot,
 .footer-big-logo span.logo-dot {
-    color: var(--google-green);
+    color:#0aa7b3;
 }
 
 .navbar {
@@ -480,14 +489,14 @@ img {
 .subtitle {
     display: inline-block;
     margin-bottom: 20px;
-    color: var(--text-secondary);
+    color:#bf5fa1e0;
     font-size: 1.3rem;
     font-weight: 500;
 }
 
 .title {
     margin-bottom: 30px;
-    background: linear-gradient(135deg, var(--foreground) 0%, var(--gray-600) 100%);
+    background: linear-gradient(135deg, hsl(317.25deg 78.08% 38.99%) , var(--gray-600) 100%);
     color: var(--text-color);
     font-family: var(--font-heading);
     font-size: 6rem;
@@ -502,7 +511,7 @@ img {
 .description {
     max-width: 600px;
     margin-bottom: 30px;
-    color: var(--text-secondary);
+    color:(#463d86);
     font-size: 1.5rem;
     font-weight: 400;
     letter-spacing: -0.5px;
@@ -688,7 +697,7 @@ img {
     display: flex;
     align-items: center;
     gap: 10px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     color: var(--text-color);
     font-family: var(--font-heading);
     font-size: 1.25rem;
@@ -696,10 +705,19 @@ img {
 }
 
 .skill-category h3::after {
+    gap: 10px;
+    margin-top: 25px;
     flex: 1;
     height: 1px;
     background: var(--border-color);
     content: '';
+}
+
+/* 👇 ADD THIS RIGHT HERE */
+.skills-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 60px;
 }
 
 .skill-list {
@@ -1809,11 +1827,13 @@ img {
 
     .section-title {
         font-size: 2.2rem;
+        color: #8c225ece;
     }
 
     .section-header {
         margin-bottom: 40px;
         text-align: center;
+        color: #8c225ece;
     }
 
     .profile-img-container {
@@ -1833,8 +1853,10 @@ img {
     }
 
     .skills-container {
-        grid-template-columns: 1fr;
-    }
+    display: grid;              
+    grid-template-columns: 1fr;
+    row-gap: 60px;               
+}
 
     .hero-visual {
         justify-content: center;
