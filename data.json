@@ -2,7 +2,7 @@
     "site": {
         "title": "Portfolio | Fariha Tasnim",
         "logo": {
-            "text": "Faa",
+            "text": "Fariha",
             "span": "Tasnim."
         },
         "favicon": "public/images/favicon.ico",
@@ -70,9 +70,9 @@
     },
     "profile": {
         "name": "Fariha Tasnim",
-        "subtitle": "Full Stack Developer",
+        "subtitle": "Junior Full Stack Developer",
         "profileImage": "public/images/profile.jpg",
-        "description": "I build accessible, pixel-perfect, and performant web experiences. Turning ideas into real-life products is my calling.",
+        "description": "A passionate developer continuously learning new technologies and building real-world projects to grow my skills.",
         "social": [
             {
                 "icon": "fa-brands fa-github",
@@ -97,29 +97,16 @@
         "text": [
             "I'm a versatile developer specializing in the intersection of design and cutting-edge technology. My journey began with web customization years ago, and today I build high-performance, AI-powered solutions across multiple platforms.",
             "I specialize in developing intelligent web ecosystems, machine learning integrations, and native Android and iOS applications. I focus on creating AI-integrated experiences that are not only visually stunning but also redefine user interaction through smart, efficient technology."
-        ],
-        "stats": [
-            {
-                "value": "05+",
-                "label": "Years Experience"
-            },
-            {
-                "value": "20+",
-                "label": "Projects Completed"
-            },
-            {
-                "value": "20+",
-                "label": "Happy Clients"
-            }
         ]
+
     },
     "education": [
         {
             "degree": "B.Sc in Computer Science",
-            "institution": "University of Engineering & Technology",
-            "duration": "2018 - 2022",
-            "icon": "fa-solid fa-graduation-cap",
-            "description": "Specialized in Software Engineering and Artificial Intelligence. Graduated with honors."
+            "institution": "University of Asia Pacific",
+            "duration": "2024 - Present",
+            "icon": "fa-solid fa-graduation-cap"
+
         },
         {
             "degree": "Higher Secondary Certificate",
