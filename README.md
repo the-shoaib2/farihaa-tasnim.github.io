@@ -1,4 +1,4 @@
-# DevPortfolio
+# FarihaTasnim
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/farihaa-tasnim/farihaa-tasnim.github.io?style=for-the-badge&color=blue)
 ![GitHub repo size](https://img.shields.io/github/repo-size/farihaa-tasnim/farihaa-tasnim.github.io?style=for-the-badge&color=orange)
