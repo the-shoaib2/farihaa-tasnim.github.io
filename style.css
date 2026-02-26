@@ -52,8 +52,8 @@
     --bg-secondary: var(--secondary);
     --border-color: var(--border);
     --card-bg: var(--card);
-    --text-color: var(--foreground);
-    --text-secondary: #4f1583;
+    --text-color: #c7417fe3;
+    --text-secondary:#c7417fe3;
     --primary-color: var(--primary);
     --primary-dark: var(--primary);
     --secondary-color: var(--gray-600);
@@ -915,20 +915,20 @@ img {
 
 .timeline-content h3 {
     margin-bottom: 5px;
-    color: #6a3ac9d9;
+    color: #7649d0;
     font-family: var(--font-heading);
     font-size: 1.5rem;
 }
 
 .timeline-content h4 {
     margin-bottom: 15px;
-    color: #6a4ab5d1;
+    color: #9a3ed7f4;
     font-size: 1.1rem;
     font-weight: 500;
 }
 
 .timeline-content p {
-    color: #ba61c9ca;
+    color: #cf2fd1e7;
     font-size: 1rem;
     line-height: 1.6;
 }
