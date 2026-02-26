@@ -72,7 +72,7 @@
         "name": "Fariha Tasnim",
         "subtitle": "Aspiring Software Developer",
         "profileImage": "public/images/profile.jpg",
-        "description": "I am a 3rd year Computer Science student passionate about programming, learning new technologies, and building real-world projects to enhance my skills.",
+        "description": "I am a third-year Computer Science student, passionate about programming and exploring new technologies to enhance my skills.",
         "social": [
             {
                 "icon": "fa-brands fa-github",
@@ -147,17 +147,17 @@
             },
             {
                 "name": "C++",
-                "percentage": 80,
+                "percentage": 75,
                 "icon": "fa-solid fa-plus-square"
             },
             {
                 "name": "Python",
-                "percentage": 70,
+                "percentage": 65,
                 "icon": "fa-brands fa-python"
             },
             {
                 "name": "Java",
-                "percentage": 85,
+                "percentage": 80,
                 "icon": "fa-brands fa-java"
             }
 
@@ -165,12 +165,12 @@
         "frontend": [
             {
                 "name": "HTML5",
-                "percentage": 80,
+                "percentage": 60,
                 "icon": "fa-brands fa-html5"
             },
             {
                 "name": "CSS3",
-                "percentage": 75,
+                "percentage": 65,
                 "icon": "fa-brands fa-css3-alt"
             }
 
@@ -178,7 +178,7 @@
         "databases": [
             {
                 "name": "MySQL",
-                "percentage": 95,
+                "percentage": 85,
                 "icon": "fa-solid fa-database"
             }
 
@@ -187,14 +187,19 @@
             
             {
                 "name": "Git",
-                "percentage": 82,
+                "percentage": 80,
                 "icon": "fa-brands fa-git-alt"
+            },
+            {
+               "name": "Overleaf",
+               "percentage": 55,
+              "icon": "fa-solid fa-pen-to-square"
             }
         ],
         "tools_and_ides": [
             {
                 "name": "VS Code",
-                "percentage": 90,
+                "percentage": 85,
                 "icon": "fa-solid fa-code"
             }
         
@@ -202,95 +207,23 @@
         "design_and_media": [
             {
                 "name": "Adobe Photoshop",
-                "percentage": 70,
+                "percentage": 65,
                 "icon": "fa-solid fa-image"
             }
         ]
     },
     "projects": [
-        {
-            "name": "Meal Sphere",
-            "description": "Meal planning and recipe sharing platform.",
-            "tech_stack": [
-                "React",
-                "Next.js",
-                "Node.js",
-                "TypeScript",
-                "Prisma",
-                "MongoDB",
-                "Tailwind CSS",
-                "React Hook Form",
-                "NextAuth.js",
-                "Dotenv",
-                "Framer Motion",
-                "Recharts",
-                "Lucide React",
-                "Nodemailer"
-            ],
-            "repository": "https://github.com/farihaa-tasnim/meal-sphere",
-            "image": "https://s0.wp.com/mshots/v1/https%3A%2F%2Fmeal-sphere.vercel.app?w=1200",
-            "live_preview": "https://meal-sphere.vercel.app"
-        },
-        {
-            "name": "AI Agent",
-            "description": "Intelligent agent platform leveraging NLP and automation for productivity.",
-            "tech_stack": [
-                "Python",
-                "TensorFlow",
-                "PyTorch",
-                "NLP",
-                "Docker"
-            ],
-            "repository": "https://github.com/farihaa-tasnim/ai-agent",
-            "image": "https://s0.wp.com/mshots/v1/https%3A%2F%2Fgithub.com%2Ffarihaa-tasnim%2Fai-agent?w=1200",
-            "live_preview": null
-        },
-        {
-            "name": "Pregnify",
-            "description": "AI-powered platform for personalized pregnancy risk prediction, real-time health monitoring, and seamless patient-doctor communication.",
-            "tech_stack": [
-                "Node.js",
-                "Express.js",
-                "Prisma",
-                "MySQL",
-                "JWT",
-                "OpenAI",
-                "React",
-                "Vite",
-                "Tailwind CSS",
-                "ShadCN UI",
-                "Chart.js"
-            ],
-            "repository": "https://github.com/farihaa-tasnim/Pregnify",
-            "image": "https://s0.wp.com/mshots/v1/https%3A%2F%2Fgithub.com%2Ffarihaa-tasnim%2FPregnify?w=1200",
-            "live_preview": null
-        },
-        {
-            "name": "Supershop Management System",
-            "description": "Spring Boot-based inventory & sales management application.",
-            "tech_stack": [
-                "Java",
-                "Spring Boot",
-                "MongoDB",
-                "Kafka",
-                "JWT",
-                "Cloudinary",
-                "OpenAPI",
-                "React",
-                "Vite",
-                "Tailwind CSS",
-                "ShadCN UI",
-                "Radix UI",
-                "Framer Motion",
-                "React Router",
-                "React Query",
-                "Zustand",
-                "Recharts"
-            ],
-            "repository": "https://github.com/farihaa-tasnim/Super-Shop-Management",
-            "image": "https://s0.wp.com/mshots/v1/https%3A%2F%2Fgithub.com%2Ffarihaa-tasnim%2FSuper-Shop-Management?w=1200",
-            "live_preview": null
+       {
+        "name": "Bank Management System",
+        "description": "A console-based Java application that simulates basic banking operations such as account creation, deposit, withdrawal, and balance inquiry. This project demonstrates the use of object-oriented programming concepts and file handling.",
+        "tech_stack": [
+                     "Java"
+                      ],
+         "repository": "https://github.com/farihaa-tasnim/Bank-Management-System",
+         "image": "https://s0.wp.com/mshots/v1/https%3A%2F%2Fgithub.com%2Ffarihaa-tasnim%2FBank-Management-System?w=1200",
+         "live_preview": null
         }
+
     ],
     
     "testimonials": [
