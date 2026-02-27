@@ -312,8 +312,7 @@ function populateSite(site, profile, images) {
         return `<span class="logo-char-${charIndex}">${char}</span>`;
     }).join('');
 
-    const faviconSrc = site.favicon || 'public/images/favicon.ico';
-    const logoHTML = `<img src="${faviconSrc}" alt="Icon" class="logo-icon"> <div>${coloredText}<span>${site.logo.span.replace(/\.$/, '<span class="logo-dot">.</span>')}</span></div>`;
+    const logoHTML = `<div>${coloredText}<span>${site.logo.span.replace(/\.$/, '<span class="logo-dot">.</span>')}</span></div>`;
 
     if (logo) logo.innerHTML = logoHTML;
     if (bigLogo) bigLogo.innerHTML = coloredText + `<span>${site.logo.span.replace(/\.$/, '<span class="logo-dot">.</span>')}</span>`;
